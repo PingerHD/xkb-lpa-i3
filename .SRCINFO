@@ -1,0 +1,15 @@
+pkgbase = xkb-lpa-i3
+	pkgdesc = Script to set xkb keyboard layout per app for i3wm
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/PingerHD/xkb-lpa-i3
+	arch = x86_64
+	license = MIT
+	depends = i3-wm
+	depends = xdotool
+	depends = xkb-switch
+	depends = bash
+	source = xkb-lpa-i3.sh
+	md5sums = 394e8dddd0cfcd234a5f1588dde19f04
+
+pkgname = xkb-lpa-i3
