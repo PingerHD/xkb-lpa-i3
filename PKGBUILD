@@ -11,6 +11,6 @@ source=("xkb-lpa-i3.sh")
 md5sums=('394e8dddd0cfcd234a5f1588dde19f04')
 
 package() {
-    install -Dm755 xkb-lpa-i3.sh "$pkgdir/usr/bin/xkb-lpa"
+    install -Dm755 xkb-lpa-i3.sh "$pkgdir/usr/bin/xkb-lpa-i3"
 }
 
